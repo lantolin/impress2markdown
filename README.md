@@ -24,6 +24,6 @@ Unfortunately the right technology for that is XSLT which is hideous. But that's
 
 So I put together an small XSLT that transforms the basic elements of a LO Impress document into Markdown.
 
-It is far from perfect, but it covers my needs.
+It is far from perfect, it is very focused on my own needs (my slides are very basic). It supports just some particular elements of the slides (title, simple text-boxes, lists, tables, and notes).
 
-Here it is in case it is of any help to you. Any improvements, suggestions, better aproaches, etc. are more than welcome.
+Here it is in case it is of any help to you. Any improvements, suggestions, better approaches, etc. are more than welcome.
