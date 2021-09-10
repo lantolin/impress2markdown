@@ -43,7 +43,7 @@
     <xsl:strip-space elements="*" />
 
     <xsl:template match="/office:document-content/office:body/office:presentation">
-        <!-- PARA-CASA Pagina -->
+        <!-- PARA-CADA Pagina -->
         <xsl:for-each select="draw:page">
             <xsl:text>class: </xsl:text>
             <xsl:value-of select="@draw:master-page-name"/>
